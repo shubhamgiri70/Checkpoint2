@@ -1,0 +1,18 @@
+h1{
+    background-color: blue;
+    font-size: 32px;
+}
+p{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.asdf{
+    font-size: 56px;
+    background-color: brown;
+    font-weight: 800;
+}
+#purple{
+    background-color: purple;
+}
