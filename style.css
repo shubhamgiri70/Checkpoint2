@@ -288,3 +288,198 @@ h2{
     width: 100%;
     border-radius: 50%;
 }
+
+.heading-art{
+    text-align: center;
+    margin-top: 60px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.heading-art h3{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(77, 76, 76);
+    text-transform: uppercase;
+}
+
+.heading-art p{
+    font-size: 13px;
+    color: rgb(107, 104, 104);
+}
+
+.article-rest{
+    margin-top: 50px;
+}
+
+.rect-box1{
+    width: 300px;
+    height: 30px;
+    background-color: rgb(234 81 62);
+    text-transform: uppercase;
+    margin: 16px;
+    padding: 6px;
+    border-right: 30px solid rgb(231 231 231);
+    font-size: 13px;
+    font-weight: 700;
+    color: rgb(255 254 254);
+}
+
+.rect-box2{
+    width: 300px;
+    height: 30px;
+    background-color: rgb(234 81 62);
+    text-transform: uppercase;
+    margin: 16px;
+    padding: 6px;
+    border-right: 60px solid rgb(231 231 231);
+    font-size: 13px;
+    font-weight: 700;
+    color: rgb(255 254 254);
+}
+
+.rect-box3{
+    width: 300px;
+    height: 30px;
+    background-color: rgb(234 81 62);
+    text-transform: uppercase;
+    margin: 16px;
+    padding: 6px;
+    border-right: 90px solid rgb(231 231 231);
+    font-size: 13px;
+    font-weight: 700;
+    color: rgb(255 254 254);
+}
+
+.rect-box4{
+    width: 300px;
+    height: 30px;
+    background-color: rgb(234 81 62);
+    text-transform: uppercase;
+    margin: 16px;
+    padding: 6px;
+    border-right: 60px solid rgb(231 231 231);
+    font-size: 13px;
+    font-weight: 700;
+    color: rgb(255 254 254);
+}
+.parent-rect-box{
+    margin-bottom: 50px;
+    
+}
+.side-para{
+    width: 60%;
+    margin-right: 32px;
+    font-style: italic;
+}
+
+.side-para-p{
+   margin: 16px 0;
+}
+
+.article2{
+    margin-top: 30px;
+}
+
+iframe{
+    width: 100%;
+}
+
+.box-name{
+    width: 400px;
+    height: 40px;
+    margin: 20px 0;
+    padding: 7px;
+    border: 1px solid rgb(107, 104, 104); 
+    color: rgb(107, 104, 104);  
+}
+
+.box-email{
+    width: 400px;
+    height: 40px;
+    margin: 20px 0;
+    padding: 7px;
+    border: 1px solid rgb(107, 104, 104);
+    color: rgb(107, 104, 104);
+}
+
+.box-subject{
+    width: 400px;
+    height: 40px;
+    margin: 20px 0;
+    padding: 7px;
+    border: 1px solid rgb(107, 104, 104);
+    color: rgb(107, 104, 104);
+}
+
+.box-message{
+    width: 400px;
+    height: 120px;
+    margin: 20px 0;
+    padding: 7px;
+    border: 1px solid rgb(107, 104, 104);
+    color: rgb(107, 104, 104);
+}
+
+.box-send-message{
+    width: 400px;
+    height: 40px;
+    background-color: rgb(234 81 62);
+    text-transform: uppercase;
+    margin: 20px 0;
+    padding: 7px;
+    text-align: center;
+    color: rgb(255 254 254);
+}
+
+.article2-para{
+    width: 70%;
+    margin-right: 32px;
+    font-style: italic;
+    color: rgb(107, 104, 104);
+}
+
+.article2-para-p{
+    margin: 16px 0;
+}
+
+.article2-para-add{
+    margin: 20px 0;
+}
+
+.form{
+    width: 40%;
+    
+}
+
+.section-last{
+    margin: 40px 0;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 70px;
+    margin-top: 100px;
+}
+
+button{
+    background-color: rgb(234 81 61);
+    border: none;
+    width: 170px;
+    height: 50px;
+}
+
+footer p{
+    color: rgb(107, 104, 104);
+    font-size: 15px;
+    margin-right: 450px;
+}
+
+button a{
+    text-decoration: none;
+    color: rgb(255 254 254);
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
