@@ -1,0 +1,290 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* costum style */
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255 255 255);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* color */
+
+
+
+/* Header */
+
+.background-img{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./media/banner.jpg");
+    /* background-repeat: space;
+    background-size: cover; */
+    /* margin: 16px auto; */
+    width: 100%;
+    height: 700px;
+}
+
+.flex a i{
+    background-color: rgb(255 255 255);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.top-padding{
+    padding-top: 30px;
+}
+
+i{
+    padding: 7px
+}
+
+.header-box{
+    background-color: rgb(255 255 255);
+    height: 100px;
+    margin: 32px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 1px 1px 1px rgb(138, 138, 138);
+    /* border-style: hidden;
+    border-color: rgb(68 68 68);
+     */
+
+}
+
+.brand-name{
+    margin-right: 300px;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 600;
+    color: rgb(234 82 63);
+}
+
+.nav-btn{
+  margin-right: 28px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(68 68 68);
+}
+
+.active-btn{
+    color: rgb(234 82 63);
+    font-weight: 600;
+}
+
+.heading{
+    text-align: center;
+    margin-top: 200px;
+    text-transform: uppercase;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 700;
+    color: rgb(255 255 255);
+}
+
+.hr1{
+    width: 350px;
+    color: rgb(255 255 255);
+}
+
+.heading-p{
+    margin-top: 16px;
+    font-size: 18px;
+    color: rgb(255 255 255);
+}
+
+.button{
+    background-color: rgb(234 82 63);
+    margin-top: 16px;
+    width: 130px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+
+}
+
+.button a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(255 255 255);
+    font-size: 14px;
+    font-weight: 700; 
+}
+
+/* Section */
+
+.parent-circle{
+    margin-top: 16px;
+}
+
+.small-circle{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: rgb(127 127 127);
+    margin: 5px;
+}
+
+.active-circle{
+    background-color: rgb(25 25 25);
+}
+
+.heading2{
+    text-align: center;
+    margin-top: 100px;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(77, 76, 76);
+}
+
+.hr2{
+    width: 230px;
+}
+
+.heading2-p{
+    font-size: 16px;
+    color: rgb(107, 104, 104);
+}
+
+.box-parent{
+    margin-top: 50px;
+}
+
+.box1{
+    width: 220px;
+    height: 250px;
+    background-color: rgb(92 189 157);
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2{
+    width: 220px;
+    height: 250px;
+    background-color: rgb(230 127 48);
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box3{
+    width: 220px;
+    height: 250px;
+    background-color: rgb(56 152 219);
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box4{
+    width: 220px;
+    height: 250px;
+    background-color: rgb(104 205 115);
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .box-parent a{
+    background-color: aqua;
+} */
+
+.col{
+    flex: 0 1 22%;
+    margin: 16px ;
+}
+
+.portfolio-img{
+    width: 100%;   
+}
+
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.team-img{
+    width: 100%;
+    border-radius: 50%;
+}
