@@ -74,6 +74,15 @@ body{
     align-items: center;
 }
 
+a:hover{
+    color: red;
+}
+
+p:hover{
+
+    cursor: pointer;
+}
+
 /* color */
 
 
@@ -94,7 +103,11 @@ body{
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    margin-left: 10px;
+    
+}
+
+.inside{
+     margin-left: 10px;
 }
 
 .top-padding{
@@ -265,6 +278,10 @@ h2{
     align-items: center;
 }
 
+.hr3{
+    width: 230px;
+}
+
 /* .box-parent a{
     background-color: aqua;
 } */
@@ -287,6 +304,10 @@ h2{
 .team-img{
     width: 100%;
     border-radius: 50%;
+}
+
+.hr4{
+    width: 150px;
 }
 
 .heading-art{
@@ -356,7 +377,7 @@ h2{
     height: 30px;
     background-color: rgb(234 81 62);
     text-transform: uppercase;
-    margin: 16px;
+    margin: 1rem;
     padding: 6px;
     border-right: 60px solid rgb(231 231 231);
     font-size: 13px;
@@ -364,9 +385,9 @@ h2{
     color: rgb(255 254 254);
 }
 .parent-rect-box{
-    margin-bottom: 50px;
-    
+    margin-bottom: 50px; 
 }
+
 .side-para{
     width: 60%;
     margin-right: 32px;
@@ -379,6 +400,10 @@ h2{
 
 .article2{
     margin-top: 30px;
+}
+
+.hr5{
+    width: 140px;
 }
 
 iframe{
@@ -512,7 +537,7 @@ button a{
 
 .gallery-flex{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .aside{
@@ -520,7 +545,7 @@ button a{
     height: 700px;
     background-color: rgb(234 81 63);
     padding: 30px;
-    /* position: fixed; */
+    position: fixed;
 }
 
 .aside-flex{
@@ -535,7 +560,7 @@ button a{
 }
 
 .gallery-brand-name{
-    margin-right: 80px;
+    margin-right: 150px;
     text-transform: uppercase;
     font-size: 32px;
     font-weight: 500;
@@ -571,7 +596,7 @@ h5{
 }
 
 .gallery-margin-right{
-    margin-right: 80px;
+    margin-right: 100px;
 }
 
 .gallery-margin-right a{
@@ -582,12 +607,36 @@ h5{
     text-align: center;
     font-size: 40px;
     font-weight: 600;
+    margin-top: 20px;
 }
 
-.col{
-    flex: 0 1 40%;
+.gallery-col{
+    margin: 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+    
 }
 
-.col img{
+.gallery-col img{
     width: 100%;
+
+} 
+
+.gallery-section{
+  width: 70%;
+  margin-left: 450px;
 }
+
+.gallery-flex-img{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .gallery-parent-flex{
+    display: flex;
+    justify-content: space-around;
+} */
+
+/* .overflow{
+    overflow: auto;
+} */
